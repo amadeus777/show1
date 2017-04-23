@@ -63,13 +63,15 @@
               "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i",
+              "font-family": "'PT Serif', serif"
             },
             ".link": {
-              "font-size": "1.5rem"
+              "font-size": "1.2rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.624rem"
+              "font-size": "1.300rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -101,8 +103,12 @@
           "_anchor": "ext_menu-1a",
           "_params": {
             "bgColor": "#282828",
-            "fontSize": "1.5",
-            "fontName": {},
+            "fontSize": "1.2",
+            "fontName": {
+              "name": "PT Serif",
+              "url": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i",
+              "css": "'PT Serif', serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
@@ -137,7 +143,7 @@
           "_anchor": "msg-box1-12",
           "_params": {
             "paddingTop": "4",
-            "paddingBottom": "0",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",

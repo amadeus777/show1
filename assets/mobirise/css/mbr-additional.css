@@ -15,6 +15,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -437,13 +438,14 @@ h6,
 #ext_menu-1a .link,
 #ext_menu-1a .dropdown-item {
   color: #ffffff;
+  font-family: 'PT Serif', serif;
 }
 #ext_menu-1a .link {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 #ext_menu-1a .dropdown-item,
 #ext_menu-1a .nav-dropdown-sm .link {
-  font-size: 1.624rem;
+  font-size: 1.300rem;
 }
 #ext_menu-1a .link:hover,
 #ext_menu-1a .dropdown-item:hover,
